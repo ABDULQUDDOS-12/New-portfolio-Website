@@ -1,0 +1,25 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}    
+.logoContainer{
+    width: 85%;
+    margin: auto;
+}
+.logoContainer h1{
+    font-weight: 500;
+}
+.optionsContainer{
+    width: 10%;
+    justify-content: space-between;
+}
+.twitterIcon,.discordIcon{
+    font-size: xx-large;
+    cursor: pointer;
+}
+.twitterIcon{
+    margin-right: 10%;
+}

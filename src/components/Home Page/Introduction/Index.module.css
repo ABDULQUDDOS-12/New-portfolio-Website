@@ -1,0 +1,61 @@
+.mainContainer{
+    width: 100%;
+    background-color: black;
+    margin-top: 0%;
+    color: white;
+    letter-spacing: 1px;
+}
+.imageContainer{
+    width: 30%;
+    margin: auto;
+}
+.animePicture{
+   width: 100%;
+   margin-top: 10%;
+   
+}
+.imageContainer h1{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 5%;
+}
+.textContainer{
+    width: 50%;
+    margin:auto;
+    font-size: larger;
+}
+.chooseMeContainer{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+}
+.chooseMeContainer h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.leftHandContainer{
+    width: 50%;
+}
+.rightHandContainer{
+    width: 50%;
+}
+.rightHandContainer p{
+    font-weight: 300;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

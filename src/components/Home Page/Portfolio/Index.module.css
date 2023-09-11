@@ -1,0 +1,25 @@
+.mainHeading h1{
+    text-align: center;
+    font-size: 45px;
+}
+.mainContainer{
+    color: white;
+    background-color: black;
+    padding-top: 10%;
+    height: 2000px;
+}
+.topImageContainer{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+.emotePicture{
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+}
+.lipstickImage{
+    width: 45%;
+    margin: auto;
+}

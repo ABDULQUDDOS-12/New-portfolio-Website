@@ -1,3 +1,6 @@
+a{
+    color: white;
+}
 body{
     background-color: black;
 }
@@ -28,8 +31,28 @@ body{
     margin-right: 10%;
 }
 
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
 
-/* Add this to your CSS file */
+}
 
+ @media (min-width: 641px) and (max-width: 1007px){
+    .optionsContainer{
+        width: 12%;
+    }
+ }
 
-
+ @media (min-width: 360px) and (max-width: 640px){
+    .optionsContainer{
+        width: 17%;
+    }
+    .logoContainer{
+        width: 75%;
+    }
+    .logoContainer h1{
+        font-size: 25px;
+    }
+    .twitterIcon,.discordIcon{
+        font-size: x-large;
+    }
+ }

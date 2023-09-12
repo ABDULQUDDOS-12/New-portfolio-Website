@@ -6,11 +6,11 @@ const Index = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.logoContainer}>
-        <h1>AMELI GFX</h1>
+        <h1>BELLA MORRI</h1>
       </div>
       <div className={styles.optionsContainer}>
-        <FiTwitter className={styles.twitterIcon}/>
-        <RiDiscordLine className={styles.discordIcon}/>
+       <a href=""> <FiTwitter className={styles.twitterIcon}/></a>
+       <a href=""> <RiDiscordLine className={styles.discordIcon}/>  </a>
       </div>
     </div>
   )

@@ -45,17 +45,69 @@
 }
 .rightHandContainer p{
     font-weight: 300;
+}
 
 
 
 
 
+/* Responsiveness */
 
+@media (min-width: 1008px) and (max-width: 1300px){
+    .leftHandContainer{
+        width: 55%;
+    }
+    .rightHandContainer{
+        width: 45%;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .imageContainer h1{
+        font-size: xx-large;
+    }
+    .textContainer p{
+        font-size: large;
+    }
+    .leftHandContainer h1{
+        font-size: xx-large;
+    }
+    .leftHandContainer{
+        width: 45%;
+    }
+    .rightHandContainer{
+        width: 55%;
+    }
+    .rightHandContainer p{
+        font-size: large;
+    }
+}
 
-
-
-
-
-
-
+@media (min-width: 360px) and (max-width: 640px){
+    .imageContainer h1{
+      font-size: x-large;
+    }
+    .textContainer{
+        width: 80%;
+    }
+    .textContainer p{
+        font-size: small;
+        margin-top: 5%;
+        font-weight: 300;
+        text-align: center;
+    }
+    .leftHandContainer h1{
+        font-size: x-large;
+    }
+    .leftHandContainer{
+        width: 40%;
+    }
+    .rightHandContainer{
+        width: 60%;
+    }
+    .rightHandContainer p{
+        font-size: small;
+    }
+    .chooseMeContainer{
+        width: 80%;
+    }
 }

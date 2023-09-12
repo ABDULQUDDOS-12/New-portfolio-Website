@@ -6,7 +6,7 @@ const Index = () => {
     <div className={styles.mainContainer}>
        <div className={styles.imageContainer}>
         <img src={animePicture} alt="" className={styles.animePicture}/>
-        <h1>AMELI GFX</h1>
+        <h1>BELLA MORRI</h1>
        </div>
        <div className={styles.textContainer}>
        <p>Passionate about well-balanced designs, I deliver exceptional user experiences, merging form and function to create captivating solutions. Turning visions into design reality.</p>

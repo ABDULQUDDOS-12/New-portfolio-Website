@@ -41,3 +41,34 @@
     letter-spacing: 2px;
     font-weight: 500;
 }
+
+
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+    .middleContainer p{
+        text-align: center;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .middleContainer p{
+        text-align: center;
+    }
+    .middleContainer h1{
+        font-size: xx-large;
+    }
+    .middleContainer p{
+        font-size: small;
+    }
+}
+@media (min-width: 360px) and (max-width: 640px){
+    .middleContainer p{
+        text-align: center;
+    }
+    .middleContainer h1{
+        font-size: x-large;
+    }
+    .middleContainer p{
+        font-size: xx-small;
+        font-weight: 400;
+    }
+}

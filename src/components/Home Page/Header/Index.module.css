@@ -1,13 +1,17 @@
+body{
+    background-color: black;
+}
 .mainContainer{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: black;
     color: white;
+    margin-top: 2%;
 }    
 .logoContainer{
     width: 85%;
     margin: auto;
+
 }
 .logoContainer h1{
     font-weight: 500;
@@ -23,3 +27,9 @@
 .twitterIcon{
     margin-right: 10%;
 }
+
+
+/* Add this to your CSS file */
+
+
+

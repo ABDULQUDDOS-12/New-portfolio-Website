@@ -6,7 +6,7 @@
     color: white;
     background-color: black;
     padding-top: 10%;
-    height: 2000px;
+    height: auto;
 }
 .topImageContainer{
     display: flex;
@@ -22,4 +22,21 @@
 .lipstickImage{
     width: 45%;
     margin: auto;
+}
+.buttonContainer{
+    width: 10%;
+    margin: auto;
+    margin-top: 7%;
+}
+.buttonContainer button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.emotePicture:last-child{
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }

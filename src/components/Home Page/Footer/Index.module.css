@@ -1,0 +1,43 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+}
+.footerContainer{
+    width: 100%;
+}
+.footerImage{
+    width: 100%;
+}
+.mainContainer{
+    background-color: black;
+}
+.leftHandImage{
+    width: 30%;
+}
+.rightHandContainer{
+    width: 30%;
+}
+.leftImage{
+    margin-top: 40%;
+    width: 50%;
+}
+.rightImage{
+    margin-top: 40%;
+    width: 50%;
+    float: right;
+}
+.middleContainer{
+    margin-top: 10%;
+    color: white;
+    width: 40%;
+}
+.middleContainer h1{
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.middleContainer p{
+    letter-spacing: 2px;
+    font-weight: 500;
+}

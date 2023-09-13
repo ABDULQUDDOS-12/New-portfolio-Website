@@ -9,8 +9,8 @@ const Index = () => {
         <h1>BELLA MORRI</h1>
       </div>
       <div className={styles.optionsContainer}>
-       <a href=""> <FiTwitter className={styles.twitterIcon}/></a>
-       <a href=""> <RiDiscordLine className={styles.discordIcon}/>  </a>
+       <a href="https://twitter.com/bella_morri"> <FiTwitter className={styles.twitterIcon}/></a>
+       <a href="http://discord.com/users/1074831040943751199"> <RiDiscordLine className={styles.discordIcon}/>  </a>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Index.module.css'
-import animePicture from '../../../images/anime picture.png'
+import animePicture from '../../../images/bella morri.jpg'
 const Index = () => {
   return (
     <div className={styles.mainContainer}>

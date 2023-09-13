@@ -52,6 +52,80 @@
 }
 
 
+
+
+
+
+/* Try for doing the things */
+/* Index.module.css */
+
+.mainContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .mainHeading h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .categoryButtons {
+    margin-bottom: 20px;
+  }
+  
+  .categoryButtons button {
+    background-color: rgb(211, 24, 24);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+  }
+  .categoryButtons button:hover {
+    background-color: rgb(104, 3, 3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  
+  .imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+
+  }
+  
+  .imageContainer {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+
+  }
+  
+  .imageContainer:hover {
+    transform: scale(1.1);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
 /* Responsiveness */
 @media (min-width: 1008px) and (max-width: 1300px)
 {

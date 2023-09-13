@@ -80,6 +80,18 @@ import category2Image1 from '../../../images/cat.jpeg';
 import category2Image2 from '../../../images/gaming.jpeg';
 import allImage1 from '../../../images/anime.jpeg';
 import allImage2 from '../../../images/anime4.jpeg';
+import outer from '../../../images/goat.jpeg'
+import anime5 from '../../../images/anime5.jpeg'
+import anime6 from '../../../images/anime6.jpeg'
+import emote1 from '../../../images/emote1.jpeg'
+import emote2 from '../../../images/emote2.jpeg'
+import emote3 from '../../../images/emote3.jpeg'
+import emote4 from '../../../images/emote4.jpeg'
+import emote5 from '../../../images/emote5.jpeg'
+import emote6 from '../../../images/emote6.jpeg'
+import emote7 from '../../../images/emote7.jpeg'
+import emote8 from '../../../images/emote8.jpeg'
+import emote9 from '../../../images/emote9.jpeg'
 
 const Index = () => {
   const [currentCategory, setCurrentCategory] = useState("all");
@@ -88,6 +100,10 @@ const Index = () => {
     all: [allImage1, allImage2,category1Image1, category1Image2,category2Image1, category2Image2],
     TwoDModel: [category1Image1, category1Image2],
     ThreeDModel: [category2Image1, category2Image2],
+    Overlays:[],
+    Intro:[],
+    Emotes:[],
+    Logo:[]
   };
 
   const handleCategoryClick = (category) => {

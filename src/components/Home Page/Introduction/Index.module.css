@@ -1,50 +1,56 @@
-.mainContainer{
+.mainContainer {
     width: 100%;
     background-color: black;
     margin-top: 0%;
     color: white;
     letter-spacing: 1px;
 }
-.imageContainer{
-    width: 50%;
+
+.imageContainer {
+    width: 80%;
     margin: auto;
 }
-.animePicture{
-   width: 100%;
-   margin: auto;
-   margin-top: 10%;
-   
+
+.animePicture {
+    width: 100%;
+    margin: auto;
 }
-.imageContainer h1{
+
+.imageContainer h1 {
     color: white;
     font-weight: 500;
     text-align: center;
     font-size: 45px;
-    margin-top: 5%;
 }
-.textContainer{
+
+.textContainer {
     width: 50%;
-    margin:auto;
+    margin: auto;
     font-size: larger;
 }
-.chooseMeContainer{
+
+.chooseMeContainer {
     width: 50%;
     display: flex;
     margin: auto;
     margin-top: 10%;
     align-items: center;
 }
-.chooseMeContainer h1{
+
+.chooseMeContainer h1 {
     font-size: 45px;
     font-weight: 500;
 }
-.leftHandContainer{
+
+.leftHandContainer {
     width: 50%;
 }
-.rightHandContainer{
+
+.rightHandContainer {
     width: 50%;
 }
-.rightHandContainer p{
+
+.rightHandContainer p {
     font-weight: 300;
 }
 
@@ -54,61 +60,75 @@
 
 /* Responsiveness */
 
-@media (min-width: 1008px) and (max-width: 1300px){
-    .leftHandContainer{
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .leftHandContainer {
         width: 55%;
     }
-    .rightHandContainer{
+
+    .rightHandContainer {
         width: 45%;
     }
 }
-@media (min-width: 641px) and (max-width: 1007px){
-    .imageContainer h1{
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .imageContainer h1 {
         font-size: xx-large;
     }
-    .textContainer p{
+
+    .textContainer p {
         font-size: large;
     }
-    .leftHandContainer h1{
+
+    .leftHandContainer h1 {
         font-size: xx-large;
     }
-    .leftHandContainer{
+
+    .leftHandContainer {
         width: 45%;
     }
-    .rightHandContainer{
+
+    .rightHandContainer {
         width: 55%;
     }
-    .rightHandContainer p{
+
+    .rightHandContainer p {
         font-size: large;
     }
 }
 
-@media (min-width: 360px) and (max-width: 640px){
-    .imageContainer h1{
-      font-size: x-large;
+@media (min-width: 360px) and (max-width: 640px) {
+    .imageContainer h1 {
+        font-size: x-large;
     }
-    .textContainer{
+
+    .textContainer {
         width: 80%;
     }
-    .textContainer p{
+
+    .textContainer p {
         font-size: small;
         margin-top: 5%;
         font-weight: 300;
         text-align: center;
     }
-    .leftHandContainer h1{
+
+    .leftHandContainer h1 {
         font-size: x-large;
     }
-    .leftHandContainer{
+
+    .leftHandContainer {
         width: 40%;
     }
-    .rightHandContainer{
+
+    .rightHandContainer {
         width: 60%;
     }
-    .rightHandContainer p{
+
+    .rightHandContainer p {
         font-size: small;
     }
-    .chooseMeContainer{
+
+    .chooseMeContainer {
         width: 80%;
     }
 }

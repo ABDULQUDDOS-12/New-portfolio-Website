@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './Index.module.css'
+import React from "react";
+import styles from "./Index.module.css";
 import { FiTwitter } from "react-icons/fi";
 import { RiDiscordLine } from "react-icons/ri";
 const Index = () => {
@@ -9,11 +9,17 @@ const Index = () => {
         <h1>BELLA MORRI</h1>
       </div>
       <div className={styles.optionsContainer}>
-       <a href="https://twitter.com/bella_morri"> <FiTwitter className={styles.twitterIcon}/></a>
-       <a href="http://discord.com/users/1074831040943751199"> <RiDiscordLine className={styles.discordIcon}/>  </a>
+        <a href="https://twitter.com/bella_morri" target="__blank">
+          {" "}
+          <FiTwitter className={styles.twitterIcon} />
+        </a>
+        <a href="http://discord.com/users/1074831040943751199" target="__blank">
+          {" "}
+          <RiDiscordLine className={styles.discordIcon} />{" "}
+        </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

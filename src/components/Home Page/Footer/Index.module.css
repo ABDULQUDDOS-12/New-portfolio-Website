@@ -1,73 +1,90 @@
-.mainContainer{
+.mainContainer {
     width: 100%;
     display: flex;
 }
-.footerContainer{
+
+.footerContainer {
     width: 100%;
 }
-.footerImage{
+
+.footerImage {
     width: 100%;
 }
-.mainContainer{
+
+.mainContainer {
     background-color: black;
 }
-.leftHandImage{
+
+.leftHandImage {
     width: 30%;
 }
-.rightHandContainer{
+
+.rightHandContainer {
     width: 30%;
 }
-.leftImage{
+
+.leftImage {
     margin-top: 40%;
     width: 50%;
 }
-.rightImage{
+
+.rightImage {
     margin-top: 40%;
     width: 50%;
     float: right;
 }
-.middleContainer{
+
+.middleContainer {
     margin-top: 10%;
     color: white;
     width: 40%;
+    text-align: center;
 }
-.middleContainer h1{
+
+.middleContainer h1 {
     font-size: 45px;
     text-align: center;
     letter-spacing: 2px;
     font-weight: 500;
 }
-.middleContainer p{
+
+.middleContainer p {
     letter-spacing: 2px;
     font-weight: 500;
 }
 
 
 /* Responsiveness */
-@media (min-width: 1008px) and (max-width: 1300px){
-    .middleContainer p{
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .middleContainer p {
         text-align: center;
     }
 }
-@media (min-width: 641px) and (max-width: 1007px){
-    .middleContainer p{
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .middleContainer p {
         text-align: center;
     }
-    .middleContainer h1{
+
+    .middleContainer h1 {
         font-size: xx-large;
     }
-    .middleContainer p{
+
+    .middleContainer p {
         font-size: small;
     }
 }
-@media (min-width: 360px) and (max-width: 640px){
-    .middleContainer p{
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .middleContainer p {
         text-align: center;
     }
-    .middleContainer h1{
+
+    .middleContainer h1 {
         font-size: x-large;
     }
-    .middleContainer p{
+
+    .middleContainer p {
         font-size: xx-small;
         font-weight: 400;
     }

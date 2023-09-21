@@ -96,7 +96,7 @@ import ArtSceneTwo from "../../../images/portfolio/Art Scenes/bb87c0c3-7d11-40c9
 import ArtSceneThree from "../../../images/portfolio/Art Scenes/bb8b5a30-e324-49d3-899f-01a73e806ba0.mp4";
 import ArtSceneFour from "../../../images/portfolio/Art Scenes/c15e130c-3471-4297-bbbb-d7ab9c1374d5.mp4";
 
-import BadgeOne from '../../../images/portfolio/'
+// import BadgeOne from '../../../images/portfolio/'
 
 import OverlayOne from "../../../images/portfolio/Overlay/0666e559-78b6-4021-a576-be5f3c55167f.jpeg";
 import OverlayTwo from "../../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8b-eece5e8df1ad.mp4";

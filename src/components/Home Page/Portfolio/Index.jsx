@@ -96,7 +96,9 @@ import ArtSceneTwo from "../../../images/portfolio/Art Scenes/bb87c0c3-7d11-40c9
 import ArtSceneThree from "../../../images/portfolio/Art Scenes/bb8b5a30-e324-49d3-899f-01a73e806ba0.mp4";
 import ArtSceneFour from "../../../images/portfolio/Art Scenes/c15e130c-3471-4297-bbbb-d7ab9c1374d5.mp4";
 
-// import BadgeOne from '../../../images/portfolio/'
+import BadgeOne from "../../../images/portfolio/Badges/25d3be1f-f225-414b-9061-4d8b9306a7ee.jpeg";
+import BadgeTwo from "../../../images/portfolio/Badges/955cfafe-dea6-47db-bdcf-5d54bf4db762.jpeg";
+import BadgeThree from "../../../images/portfolio/Badges/B3FAB9E7-1CA4-440E-820B-24F0DD8C9BBD.jpeg";
 
 import OverlayOne from "../../../images/portfolio/Overlay/0666e559-78b6-4021-a576-be5f3c55167f.jpeg";
 import OverlayTwo from "../../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8b-eece5e8df1ad.mp4";
@@ -168,7 +170,7 @@ const Index = () => {
     TwoDModel: [category1Image1, category1Image2],
     ThreeDModel: [ModelOne, ModelTwo],
     ArtScenes: [ArtSceneOne, ArtSceneTwo, ArtSceneThree, ArtSceneFour],
-    Badges: [],
+    Badges: [BadgeOne, BadgeTwo, BadgeThree],
     Overlays: [OverlayOne, OverlayTwo, OverlayThree, OverlayFour],
     Intro: [outer, anime5, emote5, emote7],
     Emotes: [
@@ -220,6 +222,7 @@ const Index = () => {
         <button onClick={() => handleCategoryClick("ArtScenes")}>
           Art Scenes
         </button>
+        <button onClick={() => handleCategoryClick("Badges")}>Badges</button>
         <button onClick={() => handleCategoryClick("Overlays")}>
           Overlays
         </button>

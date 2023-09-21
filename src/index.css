@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-body,h1,div,p,h2,h3,h4 {
+
+body {
+  background: #F7B0D0;
+}
+
+body,
+h1,
+div,
+p,
+h2,
+h3,
+h4 {
   margin: 0;
   font-family: 'Bebas Neue', sans-serif;
   -webkit-font-smoothing: antialiased;

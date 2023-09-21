@@ -6,9 +6,9 @@ const Index = () => {
     <div className={styles.mainContainer}>
       <div className={styles.imageContainer}>
         <img src={profileBanner} alt="" className={styles.animePicture} />
-        <h1>BELLA MORRI</h1>
       </div>
       <div className={styles.textContainer}>
+        <h1>BELLA MORRI</h1>
         <p>
           Passionate about well-balanced designs, I deliver exceptional user
           experiences, merging form and function to create captivating

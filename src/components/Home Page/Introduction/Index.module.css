@@ -1,6 +1,5 @@
 .mainContainer {
     width: 100%;
-    background-color: black;
     margin-top: 0%;
     color: white;
     letter-spacing: 1px;
@@ -8,7 +7,7 @@
 
 .imageContainer {
     width: 80%;
-    margin: auto;
+    margin: 5% auto;
 }
 
 .animePicture {
@@ -27,6 +26,7 @@
     width: 50%;
     margin: auto;
     font-size: larger;
+    text-align: center;
 }
 
 .chooseMeContainer {

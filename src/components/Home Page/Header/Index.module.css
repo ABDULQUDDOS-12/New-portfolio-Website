@@ -1,58 +1,64 @@
-a{
+a {
     color: white;
 }
-body{
-    background-color: black;
-}
-.mainContainer{
+
+.mainContainer {
     width: 100%;
     display: flex;
     align-items: center;
     color: white;
     margin-top: 2%;
-}    
-.logoContainer{
+}
+
+.logoContainer {
     width: 85%;
     margin: auto;
 
 }
-.logoContainer h1{
+
+.logoContainer h1 {
     font-weight: 500;
 }
-.optionsContainer{
+
+.optionsContainer {
     width: 10%;
     justify-content: space-between;
 }
-.twitterIcon,.discordIcon{
+
+.twitterIcon,
+.discordIcon {
     font-size: xx-large;
     cursor: pointer;
 }
-.twitterIcon{
+
+.twitterIcon {
     margin-right: 10%;
 }
 
 /* Responsiveness */
-@media (min-width: 1008px) and (max-width: 1300px){
+@media (min-width: 1008px) and (max-width: 1300px) {}
 
-}
-
- @media (min-width: 641px) and (max-width: 1007px){
-    .optionsContainer{
+@media (min-width: 641px) and (max-width: 1007px) {
+    .optionsContainer {
         width: 12%;
     }
- }
+}
 
- @media (min-width: 360px) and (max-width: 640px){
-    .optionsContainer{
+@media (min-width: 360px) and (max-width: 640px) {
+    .optionsContainer {
         width: 17%;
     }
-    .logoContainer{
+
+    .logoContainer {
         width: 75%;
     }
-    .logoContainer h1{
+
+    .logoContainer h1 {
         font-size: 25px;
     }
-    .twitterIcon,.discordIcon{
+
+    .twitterIcon,
+    .discordIcon {
         font-size: x-large;
     }
- }
+}

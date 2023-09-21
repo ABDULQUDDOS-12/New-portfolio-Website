@@ -10,12 +10,10 @@ const Index = () => {
       </div>
       <div className={styles.optionsContainer}>
         <a href="https://twitter.com/bella_morri" target="__blank">
-          {" "}
           <FiTwitter className={styles.twitterIcon} />
         </a>
         <a href="http://discord.com/users/1074831040943751199" target="__blank">
-          {" "}
-          <RiDiscordLine className={styles.discordIcon} />{" "}
+          <RiDiscordLine className={styles.discordIcon} />
         </a>
       </div>
     </div>

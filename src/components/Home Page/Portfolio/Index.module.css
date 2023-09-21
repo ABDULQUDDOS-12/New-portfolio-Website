@@ -64,10 +64,7 @@
     padding: 20px;
   }
   
-  .mainHeading h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+
   
   .categoryButtons {
     margin-bottom: 20px;
@@ -124,8 +121,82 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  .video {
+    width: 100%; /* Set the video width to 100% of its container */
+    max-height: 100%; /* Set the video height to auto to maintain aspect ratio */
+    border: 1px solid #ccc; /* Add a border around the video */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Add a shadow to the video */
+  }
   
-
+  /* Define styles for video controls */
+  .video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+  }
+  
+  /* Define styles for video control buttons */
+  .video::-webkit-media-controls-play-button,
+  .video::-webkit-media-controls-pause-button {
+    font-size: 20px; /* Change the size of play/pause buttons */
+  }
+  
+  .playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease; /* Add a transition for smooth opacity changes */
+  }
+  
+  /* Style the play icon (you can customize this) */
+  .playIcon {
+    fill: white;
+    width: 36px;
+    height: 36px;
+  }
+  
+  /* Hide the play button when the video is playing */
+ 
+  /* Customize video controls background and icon color */
+  .video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  /* Customize video control button size (optional) */
+  .video::-webkit-media-controls-play-button,
+  .video::-webkit-media-controls-pause-button {
+    font-size: 20px;
+  }
+  
+  .pauseIcon {
+    fill: white; /* Change the fill color to your desired color */
+    width: 36px; /* Adjust the width and height as needed */
+    height: 36px;
+    display: none; /* Initially hide the pause icon */
+  }
+  
+  /* Show the pause icon when the video is playing */
+ 
+  
+  /* Hide the pause icon when the video is paused or ended */
+  .video.paused + .playButton .pauseIcon,
+  .video.ended + .playButton .pauseIcon {
+    display: none;
+  }
+  
+  
+  
+  
 /* Responsiveness */
 @media (min-width: 1008px) and (max-width: 1300px)
 {

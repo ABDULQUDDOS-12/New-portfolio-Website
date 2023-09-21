@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './Index.module.css'
-import animePicture from '../../../images/bella morri.jpg'
+import profileBanner from '../../../images/profileBanner.JPEG'
 const Index = () => {
   return (
     <div className={styles.mainContainer}>
        <div className={styles.imageContainer}>
-        <img src={animePicture} alt="" className={styles.animePicture}/>
+        <img src={profileBanner} alt="" className={styles.animePicture}/>
         <h1>BELLA MORRI</h1>
        </div>
        <div className={styles.textContainer}>

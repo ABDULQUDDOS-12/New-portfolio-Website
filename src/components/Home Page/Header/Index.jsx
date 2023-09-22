@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.logoContainer}>
-        <h1>BELLA MORRI</h1>
+        <h1>Bella Morri</h1>
       </div>
       <div className={styles.optionsContainer}>
         <a href="https://twitter.com/bella_morri" target="__blank">

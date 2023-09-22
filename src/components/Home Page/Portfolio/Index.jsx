@@ -74,22 +74,17 @@ import category2Image1 from "../../../images/cat.jpeg";
 import category2Image2 from "../../../images/gaming.jpeg";
 import allImage1 from "../../../images/anime.jpeg";
 import allImage2 from "../../../images/anime4.jpeg";
-import outer from "../../../images/goat.jpeg";
-import anime5 from "../../../images/anime5.jpeg";
-import anime6 from "../../../images/anime6.jpeg";
-import emote1 from "../../../images/emote1.jpeg";
-import emote2 from "../../../images/emote2.jpeg";
-import emote3 from "../../../images/emote3.jpeg";
-import emote4 from "../../../images/emote4.jpeg";
-import emote5 from "../../../images/emote5.jpeg";
-import emote6 from "../../../images/emote6.jpeg";
-import emote7 from "../../../images/emote7.jpeg";
-import emote8 from "../../../images/emote8.jpeg";
 
 // Portfolio
 
 import ModelOne from "../../../images/portfolio/3D Model/5CCF0097-FC2F-484C-8742-AE43EA46CD72.jpeg";
 import ModelTwo from "../../../images/portfolio/3D Model/77802A2D-2256-4676-B84C-56B078AA5CBB.jpeg";
+
+import ModelThree from "../../../images/portfolio/2D Model/anime6.jpeg";
+import ModelFour from "../../../images/portfolio/2D Model/dogy.jpeg";
+import ModelFive from "../../../images/portfolio/2D Model/emote4.jpeg";
+import ModelSix from "../../../images/portfolio/2D Model/emote6.jpeg";
+import ModelSeven from "../../../images/portfolio/2D Model/emote7.jpeg";
 
 import ArtSceneOne from "../../../images/portfolio/Art Scenes/32fc951c-97b5-4ee7-8997-2775aebe850f.jpeg";
 import ArtSceneTwo from "../../../images/portfolio/Art Scenes/bb87c0c3-7d11-40c9-b9e0-6d61b277cd85.jpeg";
@@ -119,10 +114,10 @@ import OverlayOne from "../../../images/portfolio/Overlay/0666e559-78b6-4021-a57
 import OverlayTwo from "../../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8b-eece5e8df1ad.mp4";
 import OverlayThree from "../../../images/portfolio/Overlay/f405a9bc-8c45-4da3-9b55-8c97d7846611.mp4";
 import OverlayFour from "../../../images/portfolio/Overlay/facc1ca8-1d0c-4c0e-8f07-d1aaff0a518d.mp4";
-import OverlayFive from "../../../images/portfolio/Overlay/Overlay.MP4";
+import OverlayFive from "../../../images/portfolio/Overlay/Overlay.mp4";
 
-import IntroOne from "../../../images/portfolio/Intro Outro/Intro.MP4";
-import IntroTwo from "../../../images/portfolio/Intro Outro/Outro.MP4";
+import IntroOne from "../../../images/portfolio/Intro Outro/Intro.mp4";
+import IntroTwo from "../../../images/portfolio/Intro Outro/Outro.mp4";
 
 import emoteOne from "../../../images/portfolio/Emotes/09458623-5325-42B9-ABEC-35D9FC4AD31E.jpeg";
 import emoteTwo from "../../../images/portfolio/Emotes/342C3C1E-ACD2-4ED9-9146-A8BCCD8A9DC1.jpeg";
@@ -158,7 +153,7 @@ import logoThree from "../../../images/portfolio/Logo/e18f95d3-d1f3-4478-a7d7-2b
 
 import extraOne from "../../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0af746ba9a14.jpeg";
 import extraTwo from "../../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.jpeg";
-import extraThree from "../../../images/portfolio/Extra/Alerts.MP4";
+import extraThree from "../../../images/portfolio/Extra/Alerts.mp4";
 
 const Index = () => {
   const [currentCategory, setCurrentCategory] = useState("all");
@@ -190,7 +185,7 @@ const Index = () => {
       category2Image1,
       category2Image2,
     ],
-    TwoDModel: [category1Image1, category1Image2],
+    TwoDModel: [ModelThree, ModelFour, ModelFive, ModelSix, ModelSeven],
     ThreeDModel: [ModelOne, ModelTwo],
     ArtScenes: [ArtSceneOne, ArtSceneTwo, ArtSceneThree, ArtSceneFour],
     Badges: [BadgeOne, BadgeTwo, BadgeThree],

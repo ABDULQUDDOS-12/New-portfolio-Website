@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face {
+  font-family: 'Rockybilly';
+  src: url('./font/Rockybilly.woff2') format('woff2');
+}
+
 body {
   background: linear-gradient(#E45097, #7246A4);
 }

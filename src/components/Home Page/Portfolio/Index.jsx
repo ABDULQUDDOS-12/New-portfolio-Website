@@ -100,10 +100,29 @@ import BadgeOne from "../../../images/portfolio/Badges/25d3be1f-f225-414b-9061-4
 import BadgeTwo from "../../../images/portfolio/Badges/955cfafe-dea6-47db-bdcf-5d54bf4db762.jpeg";
 import BadgeThree from "../../../images/portfolio/Badges/B3FAB9E7-1CA4-440E-820B-24F0DD8C9BBD.jpeg";
 
+import FanartOne from "../../../images/portfolio/Fan Art/25EB9437-8DFB-4A95-90D5-4BDAFBD0AF1E.jpeg";
+import FanartTwo from "../../../images/portfolio/Fan Art/85421406-04F5-4C72-9F03-96E2FDFCF075.jpeg";
+import FanartThree from "../../../images/portfolio/Fan Art/F35F8A32-A549-4414-9C79-6DD151F4A0E5.jpeg";
+import FanartFour from "../../../images/portfolio/Fan Art/IMG_3169.jpeg";
+import FanartFive from "../../../images/portfolio/Fan Art/IMG_3190.jpeg";
+import FanartSix from "../../../images/portfolio/Fan Art/IMG_3191.jpeg";
+import FanartSeven from "../../../images/portfolio/Fan Art/IMG_3195.jpeg";
+import FanartEight from "../../../images/portfolio/Fan Art/IMG_3196.jpeg";
+
+import SketchOne from "../../../images/portfolio/Sketches/0b9cda2f-ba65-4973-a026-c6752eff004e.jpeg";
+import SketchTwo from "../../../images/portfolio/Sketches/b9bbfae2-a989-44dc-82d5-5e6b4d0a0cdc.jpeg";
+import SketchThree from "../../../images/portfolio/Sketches/f1d35822-3db6-4dbb-b11b-a750840fccda.jpeg";
+import SketchFour from "../../../images/portfolio/Sketches/Sketch3.JPG";
+import SketchFive from "../../../images/portfolio/Sketches/Sketch4.JPG";
+
 import OverlayOne from "../../../images/portfolio/Overlay/0666e559-78b6-4021-a576-be5f3c55167f.jpeg";
 import OverlayTwo from "../../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8b-eece5e8df1ad.mp4";
 import OverlayThree from "../../../images/portfolio/Overlay/f405a9bc-8c45-4da3-9b55-8c97d7846611.mp4";
 import OverlayFour from "../../../images/portfolio/Overlay/facc1ca8-1d0c-4c0e-8f07-d1aaff0a518d.mp4";
+import OverlayFive from "../../../images/portfolio/Overlay/Overlay.MP4";
+
+import IntroOne from "../../../images/portfolio/Intro Outro/Intro.MP4";
+import IntroTwo from "../../../images/portfolio/Intro Outro/Outro.MP4";
 
 import emoteOne from "../../../images/portfolio/Emotes/09458623-5325-42B9-ABEC-35D9FC4AD31E.jpeg";
 import emoteTwo from "../../../images/portfolio/Emotes/342C3C1E-ACD2-4ED9-9146-A8BCCD8A9DC1.jpeg";
@@ -136,6 +155,10 @@ import emoteTwentySeven from "../../../images/portfolio/Emotes/eda83c7c-d0a2-4b0
 import logoOne from "../../../images/portfolio/Logo/09e4b822-7125-4296-bd9f-5fc1cfe52329.jpeg";
 import logoTwo from "../../../images/portfolio/Logo/IMG_2977.jpeg";
 import logoThree from "../../../images/portfolio/Logo/e18f95d3-d1f3-4478-a7d7-2ba14bbabadb.jpeg";
+
+import extraOne from "../../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0af746ba9a14.jpeg";
+import extraTwo from "../../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.jpeg";
+import extraThree from "../../../images/portfolio/Extra/Alerts.MP4";
 
 const Index = () => {
   const [currentCategory, setCurrentCategory] = useState("all");
@@ -171,8 +194,19 @@ const Index = () => {
     ThreeDModel: [ModelOne, ModelTwo],
     ArtScenes: [ArtSceneOne, ArtSceneTwo, ArtSceneThree, ArtSceneFour],
     Badges: [BadgeOne, BadgeTwo, BadgeThree],
-    Overlays: [OverlayOne, OverlayTwo, OverlayThree, OverlayFour],
-    Intro: [outer, anime5, emote5, emote7],
+    Fanart: [
+      FanartOne,
+      FanartTwo,
+      FanartThree,
+      FanartFour,
+      FanartFive,
+      FanartSix,
+      FanartSeven,
+      FanartEight,
+    ],
+    Sketches: [SketchOne, SketchTwo, SketchThree, SketchFour, SketchFive],
+    Overlays: [OverlayOne, OverlayTwo, OverlayThree, OverlayFour, OverlayFive],
+    Intro: [IntroOne, IntroTwo],
     Emotes: [
       emoteOne,
       emoteTwo,
@@ -203,6 +237,7 @@ const Index = () => {
       emoteTwentySeven,
     ],
     Logo: [logoOne, logoTwo, logoThree],
+    Extra: [extraOne, extraTwo, extraThree],
   };
   const handleCategoryClick = (category) => {
     setCurrentCategory(category);
@@ -223,6 +258,10 @@ const Index = () => {
           Art Scenes
         </button>
         <button onClick={() => handleCategoryClick("Badges")}>Badges</button>
+        <button onClick={() => handleCategoryClick("Fanart")}>Fanart</button>
+        <button onClick={() => handleCategoryClick("Sketches")}>
+          Sketches
+        </button>
         <button onClick={() => handleCategoryClick("Overlays")}>
           Overlays
         </button>
@@ -231,6 +270,7 @@ const Index = () => {
         </button>
         <button onClick={() => handleCategoryClick("Emotes")}>Emotes</button>
         <button onClick={() => handleCategoryClick("Logo")}>Logo</button>
+        <button onClick={() => handleCategoryClick("Extra")}>Extra</button>
       </div>
       <div className={styles.imagesContainer}>
         {categories[currentCategory].map((item, index) => (

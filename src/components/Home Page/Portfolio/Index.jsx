@@ -114,7 +114,6 @@ import OverlayOne from "../../../images/portfolio/Overlay/0666e559-78b6-4021-a57
 import OverlayTwo from "../../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8b-eece5e8df1ad.mp4";
 import OverlayThree from "../../../images/portfolio/Overlay/f405a9bc-8c45-4da3-9b55-8c97d7846611.mp4";
 import OverlayFour from "../../../images/portfolio/Overlay/facc1ca8-1d0c-4c0e-8f07-d1aaff0a518d.mp4";
-import OverlayFive from "../../../images/portfolio/Overlay/Overlay.mp4";
 
 import IntroOne from "../../../images/portfolio/Intro Outro/Intro.mp4";
 import IntroTwo from "../../../images/portfolio/Intro Outro/Outro.mp4";
@@ -200,7 +199,7 @@ const Index = () => {
       FanartEight,
     ],
     Sketches: [SketchOne, SketchTwo, SketchThree, SketchFour, SketchFive],
-    Overlays: [OverlayOne, OverlayTwo, OverlayThree, OverlayFour, OverlayFive],
+    Overlays: [OverlayOne, OverlayTwo, OverlayThree, OverlayFour],
     Intro: [IntroOne, IntroTwo],
     Emotes: [
       emoteOne,

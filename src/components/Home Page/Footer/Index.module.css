@@ -38,7 +38,9 @@
 }
 
 .middleContainer h1 {
-    font-size: 45px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Rockybilly';
     text-align: center;
     letter-spacing: 2px;
     font-weight: 500;

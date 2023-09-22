@@ -8,7 +8,7 @@ const Index = () => {
         <img src={dotsImage} alt="" className={styles.leftImage} />
       </div>
       <div className={styles.middleContainer}>
-        <h1>BELLA MORRI</h1>
+        <h1>Bella Morri</h1>
         <p>
           For any services regarding 3d modeling, animation, environments, 2d
           illustrations, graphic design and branding.

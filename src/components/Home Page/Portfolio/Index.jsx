@@ -115,8 +115,6 @@ import OverlayTwo from "../../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8
 import OverlayThree from "../../../images/portfolio/Overlay/f405a9bc-8c45-4da3-9b55-8c97d7846611.mp4";
 import OverlayFour from "../../../images/portfolio/Overlay/facc1ca8-1d0c-4c0e-8f07-d1aaff0a518d.mp4";
 
-import IntroTwo from "../../../images/portfolio/Intro Outro/Outro.mp4";
-
 import emoteOne from "../../../images/portfolio/Emotes/09458623-5325-42B9-ABEC-35D9FC4AD31E.jpeg";
 import emoteTwo from "../../../images/portfolio/Emotes/342C3C1E-ACD2-4ED9-9146-A8BCCD8A9DC1.jpeg";
 import emoteThree from "../../../images/portfolio/Emotes/422bb1ca-a553-4c39-973a-6880defe94dc.jpeg";
@@ -198,7 +196,7 @@ const Index = () => {
     ],
     Sketches: [SketchOne, SketchTwo, SketchThree, SketchFour, SketchFive],
     Overlays: [OverlayOne, OverlayTwo, OverlayThree, OverlayFour],
-    Intro: [IntroTwo],
+    Intro: [],
     Emotes: [
       emoteOne,
       emoteTwo,

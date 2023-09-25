@@ -152,7 +152,6 @@ import logoThree from "../../../images/portfolio/Logo/e18f95d3-d1f3-4478-a7d7-2b
 
 import extraOne from "../../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0af746ba9a14.jpeg";
 import extraTwo from "../../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.jpeg";
-import extraThree from "../../../images/portfolio/Extra/Alerts.mp4";
 
 const Index = () => {
   const [currentCategory, setCurrentCategory] = useState("all");
@@ -231,7 +230,7 @@ const Index = () => {
       emoteTwentySeven,
     ],
     Logo: [logoOne, logoTwo, logoThree],
-    Extra: [extraOne, extraTwo, extraThree],
+    Extra: [extraOne, extraTwo],
   };
   const handleCategoryClick = (category) => {
     setCurrentCategory(category);

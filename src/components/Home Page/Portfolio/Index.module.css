@@ -78,8 +78,8 @@
 }
 
 .categoryButtons button {
-  background-color: rgb(211, 24, 24);
-  color: #fff;
+  background-color: white;
+  color: black;
   border: none;
   padding: 10px 20px;
   margin: 5px;

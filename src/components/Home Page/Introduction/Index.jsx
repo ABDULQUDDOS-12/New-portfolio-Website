@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Index.module.css";
-import profileBanner from "../../../images/profileBanner.JPEG";
+import profileBanner from "../../../images/profileBanner.png";
 const Index = () => {
   return (
     <div className={styles.mainContainer}>

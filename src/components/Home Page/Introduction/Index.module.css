@@ -102,6 +102,12 @@
     .rightHandContainer p {
         font-size: large;
     }
+
+    .chooseMeContainer {
+        width: 80%;
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
@@ -138,5 +144,7 @@
 
     .chooseMeContainer {
         width: 80%;
+        text-align: center;
+        flex-direction: column;
     }
 }

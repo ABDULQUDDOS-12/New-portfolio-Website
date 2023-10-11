@@ -84,13 +84,14 @@
   padding: 10px 20px;
   margin: 5px;
   cursor: pointer;
-  border-radius: 2px;
-  font-size: 16px;
+  border-radius: 12px;
+  font-size: 18px;
   transition: all 0.3s linear;
+  font-family: 'Pacifico', cursive;
 }
 
 .categoryButtons button:hover {
-  background-color: rgb(104, 3, 3);
+  background-color: black;
   color: #fff;
   border: none;
   padding: 10px 20px;

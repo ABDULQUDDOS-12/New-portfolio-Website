@@ -129,7 +129,6 @@ import emoteEleven from "../../../images/portfolio/Emotes/9816211f-e644-44ad-a02
 import emoteTwelve from "../../../images/portfolio/Emotes/98b2c2ba-08ef-45f2-be53-86061d4ed38d.jpeg";
 import emoteThirteen from "../../../images/portfolio/Emotes/9BCBCDE7-EF28-44E5-AE1C-3479CB8B6163.jpeg";
 import emoteFourteen from "../../../images/portfolio/Emotes/A4099561-1285-4378-83C0-0E9FEBBD86C8.jpeg";
-import emoteFifteen from "../../../images/portfolio/Emotes/B486D549-0ED1-4C5C-898C-FDEDC070DD4A.jpeg";
 import emoteSixteen from "../../../images/portfolio/Emotes/IMG_2869.jpeg";
 import emoteSeventeen from "../../../images/portfolio/Emotes/IMG_2878.jpeg";
 import emoteEighteen from "../../../images/portfolio/Emotes/IMG_2944.jpeg";
@@ -151,7 +150,7 @@ import extraOne from "../../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0a
 import extraTwo from "../../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.jpeg";
 
 const Index = () => {
-  const [currentCategory, setCurrentCategory] = useState("all");
+  const [currentCategory, setCurrentCategory] = useState("TwoDModel");
   const handlePlay = (index) => {
     const video = document.getElementById(`video${index}`);
     const playButton = document.getElementById(`playButton${index}`);
@@ -172,14 +171,6 @@ const Index = () => {
     }
   };
   const categories = {
-    all: [
-      allImage1,
-      allImage2,
-      category1Image1,
-      category1Image2,
-      category2Image1,
-      category2Image2,
-    ],
     TwoDModel: [ModelThree, ModelFour, ModelFive, ModelSix, ModelSeven],
     ThreeDModel: [ModelOne, ModelTwo],
     ArtScenes: [ArtSceneOne, ArtSceneTwo, ArtSceneThree, ArtSceneFour],
@@ -212,7 +203,6 @@ const Index = () => {
       emoteTwelve,
       emoteThirteen,
       emoteFourteen,
-      emoteFifteen,
       emoteSixteen,
       emoteSeventeen,
       emoteEighteen,

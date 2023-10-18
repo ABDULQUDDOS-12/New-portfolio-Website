@@ -150,7 +150,7 @@ import extraOne from "../../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0a
 import extraTwo from "../../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.jpeg";
 
 const Index = () => {
-  const [currentCategory, setCurrentCategory] = useState("TwoDModel");
+  const [currentCategory, setCurrentCategory] = useState("ThreeDModel");
   const handlePlay = (index) => {
     const video = document.getElementById(`video${index}`);
     const playButton = document.getElementById(`playButton${index}`);
@@ -228,9 +228,9 @@ const Index = () => {
         <h1>Portfolio</h1>
       </div>
       <div className={styles.categoryButtons}>
-        <button onClick={() => handleCategoryClick("TwoDModel")}>
+        {/* {<button onClick={() => handleCategoryClick("TwoDModel")}>
           2D Model
-        </button>
+        </button>} */}
         <button onClick={() => handleCategoryClick("ThreeDModel")}>
           3D Model
         </button>
